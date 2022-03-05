@@ -1,6 +1,30 @@
 body {
-  background: whitesmook;
+  background: #444;
   color: orange;
+}
+
+.btn {
+  position: relative;
+  font-family: "Roboto", serif;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  padding: 1.25rem 3rem;
+  main: 0 1.5rem;
+  color: #fff;
+  border: 0.2rem solid #0EE7B7;
+  overflow: hidden;
+  transition: all 0.6s ease 0s;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #0EE7B7;
+  transition: all 0.6s ease 0s;
 }
 
 /*# sourceMappingURL=styles.css.map */
