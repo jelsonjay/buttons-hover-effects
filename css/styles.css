@@ -90,7 +90,7 @@ h1 {
 }
 
 .btn-5:hover::before {
-  width: 80%;
+  width: 85%;
   height: 100%;
 }
 
