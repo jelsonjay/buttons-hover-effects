@@ -1,3 +1,8 @@
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
 
 body
  background: #444
@@ -20,7 +25,9 @@ h1
   letter-spacing: 0.1rem
   text-transform: uppercase
   padding: 1.25rem 3rem
-
+  font-weight: 600
+  font-size: 1.25
+  margin: 0 
   color: #fff
   border: 0.2rem solid #0EE7B7
   overflow: hidden
@@ -31,10 +38,11 @@ h1
   position: absolute
   top: 50%
   left: 50%
+  z-index: -1
   transform: translate(-50%, -50%)
   background: #0EE7B7
   transition: all 0.6s ease 0s
-  z-index: -1
+ 
 
 .btn-1::before
   width: 100%
@@ -54,24 +62,22 @@ h1
 .btn-3::before
   width: 100%
   height: 0
-  
 
 .btn-3:hover::before
-  width: 100%
+  height: 100%
 
 .btn-4::before
-  width: 100%
-  height: 0
-  transform: translate(-50%, -50%)rotate(55deg)
+  height: 100%
+  width:  0
 
 .btn-4:hover::before
-  width: 180%
+  width: 100%
 
 .btn-5::before
-  height: 100%
-  width: 0
-  transform: translate(-50%, -50%)rotate(65deg)
+  width:100%
+  height:0%
 
 .btn-5:hover::before
-  height: 280%
+  width: 80%
+  height:100%
 
