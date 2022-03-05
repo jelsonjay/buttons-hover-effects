@@ -1,2 +1,2 @@
 # buttons-hover-effects
- this is animation effects buttons with html5 & scss
+ this is a buttons animation effects with html5 & scss
